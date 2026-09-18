@@ -1,7 +1,7 @@
 # Big Tech Financial Intelligence RAG
 
 An evaluated RAG system that answers and cites comparative financial
-questions across Apple, Microsoft, Alphabet, Amazon, and Meta — using their
+questions across Apple, Microsoft, Alphabet, Amazon, and Meta using their
 own SEC filings and earnings call transcripts as the source of truth.
 
 ## Why this project
