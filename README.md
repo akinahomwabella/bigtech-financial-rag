@@ -127,9 +127,4 @@ data/
 notebooks/                 # exploratory analysis
 ```
 
-## What didn't work / open questions
 
-(Keep this section updated as you build — it's the most valuable part of
-the README for interviews.)
-
--
