@@ -56,27 +56,27 @@ surface real, discussable engineering problems:
 
 - [x] **Stage 0 — Scaffold** (this commit): repo structure, company config,
       ingestion scripts for SEC filings + XBRL facts.
-- [ ] **Stage 1 — SEC corpus**: 2x 10-K + 3x 10-Q per company (25 filings),
+- [x] **Stage 1 — SEC corpus**: 2x 10-K + 3x 10-Q per company (25 filings),
       plus structured XBRL facts (revenue, operating income, R&D, capex, net
       income) for the same companies.
-- [ ] **Stage 2 — Parsing & chunking**: strip filing HTML down to clean text,
+- [x] **Stage 2 — Parsing & chunking**: strip filing HTML down to clean text,
       chunk with overlap, preserve section/company/period metadata on every
       chunk.
-- [ ] **Stage 3 — Embedding & retrieval**: embed chunks into a vector store,
+- [x] **Stage 3 — Embedding & retrieval**: embed chunks into a vector store,
       build a retriever, manually sanity-check retrieval quality on ~15
       hand-picked queries before touching the LLM.
-- [ ] **Stage 4 — Generation**: wire retrieved evidence (+ XBRL facts for
+- [x] **Stage 4 — Generation**: wire retrieved evidence (+ XBRL facts for
       numeric questions) into an LLM prompt that must cite sources and
       decline to answer without sufficient evidence.
-- [ ] **Stage 5 — Eval harness**: build a 40-50 question eval set (single-
+- [x] **Stage 5 — Eval harness**: build a 40-50 question eval set (single-
       company factual, cross-company comparative, trend, and
       out-of-scope/unanswerable), score retrieval precision@k and answer
       faithfulness.
-- [ ] **Stage 6 — Earnings call transcripts**: add transcripts, re-run eval,
+- [x] **Stage 6 — Earnings call transcripts**: add transcripts, re-run eval,
       compare retrieval behavior on formal vs. conversational text.
-- [ ] **Stage 7 — Improve retrieval**: hybrid search (BM25 + semantic)
+- [x] **Stage 7 — Improve retrieval**: hybrid search (BM25 + semantic)
       and/or re-ranking; re-run eval, report before/after numbers.
-- [ ] **Stage 8 — Deploy**: Streamlit chat UI showing answer + sources.
+- [x] **Stage 8 — Deploy**: Streamlit chat UI showing answer + sources.
 
 ## Setup
 
