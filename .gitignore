@@ -1,0 +1,20 @@
+# Data (regenerable via ingestion scripts — don't commit raw filings)
+data/raw/
+data/processed/
+data/eval/*.jsonl
+
+# Env / secrets
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Vector store
+chroma_db/
+*.sqlite3
+# R history
+.Rhistory
+.RData
+
+# Editor settings
+.vscode/
